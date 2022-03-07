@@ -1,28 +1,41 @@
-const a = 8;
-const b = 2;
+// const a = 8;
+// const b = 2;
 
-// Adição //
+// // Adição //
 
-let soma;
-soma = a + b;
-console.log(soma);
+// let soma;
+// soma = a + b;
+// console.log(soma);
 
-// Subtração //
+// // Subtração //
 
-let subtracao = a - b;
-console.log(subtracao);
+// let subtracao = a - b;
+// console.log(subtracao);
 
-// Multiplicação //
+// // Multiplicação //
 
-let multiplicacao = a * b;
-console.log(multiplicacao);
+// let multiplicacao = a * b;
+// console.log(multiplicacao);
 
-// Divisão //
+// // Divisão //
 
-let divisao = a / b;
-console.log(divisao);
+// let divisao = a / b;
+// console.log(divisao);
 
-// Módulo //
+// // Módulo //
 
-let resto = a % b;
-console.log(resto);
+// let resto = a % b;
+// console.log(resto);
+
+//     Retornar maior numero
+
+// const a = 8;
+// const b = 2;
+
+// if(a > b){
+//     console.log(a);
+
+// }else{
+//     console.log(b);
+// }
+
