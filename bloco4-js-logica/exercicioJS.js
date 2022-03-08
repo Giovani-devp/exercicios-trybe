@@ -53,14 +53,81 @@
 //     console.log(c);
 // } 
 
-const yesOrNo = 0;
+//  Verdadeiro | falso | ou zero
 
-if(yesOrNo > 0) {
+// const yesOrNo = 0;
+
+// if(yesOrNo > 0) {
+// console.log(true);
+
+// }else if(yesOrNo < 0) {
+//     console.log(false);
+
+// }else{
+//     console.log("zero");
+// }
+
+
+    // const a = 60;
+    // const b = 60;
+    // const c = 60;
+
+    // let soma = a + b + c;
+    
+    // if(soma === 180){
+    //     console.log(true);
+    // }
+
+    // else if(soma !== 180){
+    //     console.log(false);
+    // }
+    // else if(soma < 0){
+    //     console.error();
+    // }
+    
+
+// function nota (A, B, C, D, E, F){
+
+//     if(A >= 90){
+//         return "90%";
+//     }
+
+//     else if(B >= 80){
+//         return "80%";
+//     }
+
+//     else if(C >= 70){
+//         return "70%";
+//     }
+
+//     else if(D >= 60){
+//         return "60%";
+//     }
+
+//     else if(E >= 50){
+//         return "50%";
+//     }
+
+//     else if(D >= 60){
+//         return "60%";
+//     }
+
+//     else if(F < 50){
+//         return "50%";
+//     }
+
+//     else if(nota < 0 || nota > 100){
+//         console.error();
+//     }
+// }
+
+const num1 = 5;
+const num2 = 3;
+const num3 = 1;
+
+if(num1 % 2 === 0 || num2 % 2 === 0 || num3 % 2 === 0){
 console.log(true);
 
-}else if(yesOrNo < 0) {
-    console.log(false);
-
 }else{
-    console.log("zero");
+    console.log(false)
 }
