@@ -148,12 +148,12 @@
 const quantoCusta = 10;
 const quantoVende = 20;
 let quantoLucra = " ";
-let imspostoSobreCusto = 0.20;
+let imspostoSobreCusto = 0.2;
 let valorCustoTotal = "";
-let valorLucroTotal = " "
+let valorLucroTotal = " ";
 
 valorCustoTotal = quantoCusta + imspostoSobreCusto;
 
 valorLucroTotal = quantoVende - valorCustoTotal;
 
-if( )
+valorCustoTotal * 1000;
