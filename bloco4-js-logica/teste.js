@@ -57,11 +57,59 @@ else if(notaPessoa < 80 && notaPessoa >= 60){
 // for(let index of num){
 //   index += 1;
 //   console.log(index);
-  
+
 // }
 
+// let names = ['João', 'Maria', 'Antônio', 'Margarida'];
+// for(let lista of names){
+//   console.log(lista);
+// }
 
-let names = ['João', 'Maria', 'Antônio', 'Margarida'];
-for(let lista of names){
-  console.log(lista);
+// let player = {
+//   name: "Marta",
+//   lastName: "Pereira",
+//   age: 34,
+//   medals: {
+//     dolden: 2,
+//     silver: 3,
+//   },
+//   bestInTheWorld: [2006, 2007, 2008, 2009, 2010, 2018],
+
+// };
+
+// // console.log(
+// //   "A jogadora",
+// //   player.name + " " + player.lastName + " " + 
+// // );
+
+// console.log('A jogadora' , player.name + " " + player.lastName + ' foi eleita a melhor do mundo 6 vezes:' + " " + player.bestInTheWorld);
+
+// let car = {
+//   type: 'Fiat',
+//   model: '500',
+//   color: 'white',
+// };
+
+// for (let index in car) {
+//   console.log(index);
+// }
+
+let names = {
+  person1: 'João',
+  person2: 'Maria',
+  person3: 'Jorge',
+};
+
+for(pessoa in names){
+  console.log('Ola', names[pessoa]);
+}
+
+let car = {
+  model: 'A3 Sedan',
+  manufacturer: 'Audi',
+  year: 2020
+};
+
+for(carro in car){
+  console.log(car, car[carro] );
 }

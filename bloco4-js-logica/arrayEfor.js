@@ -76,3 +76,12 @@ for (y = 0; y < novoArray.length; y++) {
   divisao = novoArray[y] / 2;
   console.log(divisao);
 }
+
+
+const n = 9
+
+let resultado = 100;
+for (let i = 0; i <= n; i++){
+  resultado -= i;
+}
+console.log(resultado)
